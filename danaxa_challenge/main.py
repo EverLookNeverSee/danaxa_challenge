@@ -25,7 +25,7 @@ model = model.MaskRCNN(
 )
 
 # Loading model weights
-weights = "../models/weights/mask_rcnn_coco.h5"
+weights = "weights/mask_rcnn_coco.h5"
 model.load_weights(filepath=weights, by_name=True)
 
 # Model class names
