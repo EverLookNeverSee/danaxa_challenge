@@ -19,16 +19,17 @@ frames itself after annotating a few frames.
     * video object segmentation  
 
 * Find recent works and publications which address this problem:
-    * Boundary-preserving Mask R-CNN
-    * CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning
-    * Learning What to Learn for Video Object Segmentation
-    * Meta-DETR: Few-Shot Object Detection via Unified Image-Level Meta-Learning
-    * Video Object Segmentation with Adaptive Feature Bank and Uncertain-Region Refinement
-    * One-Shot Object Detection with Co-Attention and Co-Excitation
-    * One-Shot Video Object Segmentation
-    * Show&Tell: A Semi-Automated Image Annotation System
+    * [Boundary-preserving Mask R-CNN](https://arxiv.org/abs/2007.08921)
+    * [CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning](https://arxiv.org/abs/1903.02351)
+    * [Learning What to Learn for Video Object Segmentation](https://arxiv.org/abs/2003.11540)
+    * [Meta-DETR: Few-Shot Object Detection via Unified Image-Level Meta-Learning](https://arxiv.org/abs/2103.11731)
+    * [Video Object Segmentation with Adaptive Feature Bank and Uncertain-Region Refinement](https://arxiv.org/abs/2010.07958)
+    * [One-Shot Object Detection with Co-Attention and Co-Excitation](https://arxiv.org/abs/1911.12529)
+    * [One-Shot Video Object Segmentation](https://arxiv.org/abs/1611.05198)
+    * [Show&Tell: A Semi-Automated Image Annotation System](https://www.researchgate.net/publication/3338590_ShowTell_A_Semi-Automated_Image_Annotation_System)
     
 * Find open source repositories in this regard:
+    * [cvat](https://github.com/openvinotoolkit/cvat)
     * [Siamese-Networks-for-One-Shot-Learning](https://github.com/tensorfreitas/Siamese-Networks-for-One-Shot-Learning)
     * [keras-oneshot](https://github.com/sorenbouma/keras-oneshot)
     * [DPGN](https://github.com/megvii-research/DPGN)
