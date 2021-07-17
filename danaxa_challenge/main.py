@@ -44,3 +44,12 @@ CLASS_NAMES = ['BG', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus'
 if __name__ == '__main__':
     # Model architecture
     model.keras_model.summary()
+    # Testing labeling functionality on test video
+    capture = VideoCapture("videos/test_video.mkv")
+    while True:
+        _, frame = capture.read()
+        rgb_image = cvtColor(frame, COLOR_BGR2RGB)
+        results = model.detect([rgb_image], verbose=0)
+        result = results[0]
+        for item in result.get("class_ids"):
+            print(CLASS_NAMES[item])
