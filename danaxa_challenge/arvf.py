@@ -41,3 +41,23 @@ class VideoCaptureAsync(object):
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.capture.release()
+
+
+def stream(file_path: str = "videos/test_video.mkv"):
+    """
+    Displaying The Video File
+    :param file_path: video file path(directory address)
+    :return: None
+    """
+    video = VideoCaptureAsync(src=file_path)
+    while True:
+        retrieved, frame = video.capture.read()
+        if retrieved:
+            imshow("Test Video", frame)
+            waitKey(10)
+        if waitKey(1) & 0xFF == ord("q"):
+            video.stop()
+            destroyAllWindows()
+            break
+    video.stop()
+    destroyAllWindows()
