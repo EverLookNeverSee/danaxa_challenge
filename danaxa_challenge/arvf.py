@@ -61,3 +61,8 @@ def stream(file_path: str = "videos/test_video.mkv"):
             break
     video.stop()
     destroyAllWindows()
+
+
+if __name__ == '__main__':
+    # Streaming test video
+    stream()
