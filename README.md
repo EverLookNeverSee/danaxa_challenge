@@ -37,10 +37,10 @@ frames itself after annotating a few frames.
     * [pytracking](https://github.com/visionml/pytracking)
     
 ## Project Structure and Contents
-images: contains a test image
-videos: contains a test video
-mrcnn: contains mask-rcnn model files
-weights: contains .h5 file (mask-rcnn model weights)
-arvf.py: contains a class in order to read video frames asynchronously
-main.py: contains loading, configuring and testing mask-rcnn model on test video
-mask_label_image.py: contains testing mask and label functionality on test image
+images: contains a test image  
+videos: contains a test video  
+mrcnn: contains mask-rcnn model files  
+weights: contains .h5 file (mask-rcnn model weights)  
+arvf.py: contains a class in order to read video frames asynchronously  
+main.py: contains loading, configuring and testing mask-rcnn model on test video  
+mask_label_image.py: contains testing mask and label functionality on test image  
