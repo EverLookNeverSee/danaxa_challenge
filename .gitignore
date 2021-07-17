@@ -136,3 +136,5 @@ dmypy.json
 /.idea/vcs.xml
 /danaxa_challenge/mrcnn
 /danaxa_challenge/weights
+/danaxa_challenge/images
+danaxa_challenge/videos
